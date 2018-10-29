@@ -1,0 +1,136 @@
+body{
+    background-color: white;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    /* font-size: 100%; */
+    color: #5D6063;
+}
+
+h1{
+    color: #F14A92;
+}
+
+#email{
+    font-style: italic;
+    color: #4B0082;
+}
+
+em{
+    font-style: normal;
+    font-weight: bold;
+    color: #4B0082;
+}
+
+strong{
+    color: white;
+}
+
+h2{
+    color: #4B0082;
+}
+
+p{
+    margin: 10px;
+}
+
+.header, .footer{
+    color: white;
+    background-color: #4B0082;
+    
+}
+
+#intro{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 250%;
+}
+
+#ending{
+    width: 900px;
+    margin: auto;
+    text-align: left;
+    color: white;
+    font-style: italic;
+    /* font-size: 50%; */
+}
+
+.page{
+    overflow: hidden;
+    /* background-color: lightblue; */
+    
+}
+
+.section{
+    width: 900px;
+    margin: 25px auto;
+}
+
+.introduction-container{
+    display: flex;
+    justify-content: center;
+}
+
+.introduction{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+#contact{
+    width: 700px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* border: 1px solid red; */
+}
+
+
+
+#biography{
+    height: 220px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+
+table, td{
+    border-collapse: collapse;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.project-name{
+    width: 200px;
+}
+
+.project-discription{
+    width: 700px;
+}
+
+.dark{
+    color: white;
+    background-color: rgb(117, 67, 153);
+}
+
+.light{
+    color: white;
+    background-color: #E6E6FA;
+}
