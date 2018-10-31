@@ -1,0 +1,19 @@
+body{
+    background-color: #FFFFFF;
+    color: #774A28;
+    font-size: 17px;
+    text-align: justify;
+    
+}
+
+h1{
+    color: #48E5C2;
+}
+
+h2{
+    color: #FE5F55;
+}
+
+div{
+    line-height: 1.6;
+}
