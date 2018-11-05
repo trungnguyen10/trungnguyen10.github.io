@@ -1,0 +1,139 @@
+*{
+    font-family: Merriweather, sans-serif;
+    color: white;
+    margin: 0px auto;
+    box-sizing: border-box;
+    letter-spacing: 1.5px;
+    line-height: 2; 
+}
+
+h1{
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+body{
+    background-color: #121212;
+    border: 1px solid red;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #B16C4A;
+}
+
+.page-containter{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/band-cover.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+}
+
+.header{
+    width: 100%;
+    height: 162px;
+    position: fixed;
+    top: 0px;
+    background-color: #101010;
+}
+
+.band-container{
+    font-size: 40px;
+    letter-spacing: 15px;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.menu-container{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    /* border: 1px solid red; */
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+
+.content{
+    background-color: rgb(16, 16, 16,0.6);
+    padding: 20px 30px;
+    margin: 60px auto;
+    margin-top: 162px;
+    border-radius: 5px;
+    padding-top: 60px;
+    /* border: 1px solid red; */
+}
+
+.title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.click{
+    width: 130px;
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.member{
+    width: 100%;
+    background-color: #3f3f3f;
+    margin-top: 162px;
+}
+
+
+.member-item{
+    width: 900px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: 70px auto;
+    
+}
+
+.avatar{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    /* background-repeat: no-repeat; */
+}
+
+.shane{
+    background-image: url(img/members/shane.png);
+    background-size: 100%;
+}
+
+.nick{
+    background-image: url(img/members/nick.png);
+    background-size: 100%;
+}
+
+.mark{
+    background-image: url(img/members/mark.png);
+    background-size: 100%;
+}
+
+.kian{
+    background-image: url(img/members/kian.png);
+    background-size: 100%;
+}
+
+
+
+.description{
+    width: 550px;
+}
