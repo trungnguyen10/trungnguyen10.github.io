@@ -34,7 +34,7 @@ a:hover{
     background-image: url(img/band-cover.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header{
