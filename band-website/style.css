@@ -14,7 +14,7 @@ h1{
 
 body{
     background-color: #121212;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 a{
@@ -68,7 +68,7 @@ a:hover{
 
 .content{
     background-color: rgb(16, 16, 16,0.6);
-    padding: 20px 30px;
+    padding: 20px 50px;
     margin: 60px auto;
     margin-top: 162px;
     border-radius: 5px;
