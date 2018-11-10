@@ -13,7 +13,7 @@ h1{
 }
 
 body{
-    background-color: #121212;
+    background-color: #3f3f3f;
     /* border: 1px solid red; */
 }
 
@@ -27,13 +27,18 @@ a:hover{
 
 .page-containter{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     background-image: url(img/band-cover.jpg);
-    background-size: 100% auto;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(img/band-cover.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat; */
     /* border: 1px solid red; */
 }
 
@@ -88,28 +93,30 @@ a:hover{
     text-align: center;
 }
 
+
+/**************************** style for about.html**************************/
 .member{
     width: 100%;
+    /* height: 100vh; */
     background-color: #3f3f3f;
     margin-top: 162px;
 }
 
-
 .member-item{
-    width: 900px;
+    max-width: 900px;
+    min-width: 500px;
     height: auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     /* border: 1px solid red; */
     margin: 70px auto;
-    
 }
 
 .avatar{
-    width: 300px;
-    height: 300px;
-    border-radius: 300px;
-    /* background-repeat: no-repeat; */
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
 }
 
 .shane{
@@ -132,8 +139,135 @@ a:hover{
     background-size: 100%;
 }
 
-
-
 .description{
-    width: 550px;
+    width: 60%;
+}
+
+/******************************* style for album.html ************************/
+.album-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#westlife{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/album/westlife.jpg);
+    background-size: 100% 100%;
+    border-radius: 3px;
+}
+
+#coast{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/album/coast-to-coast.jpg);
+    background-size: 100% 100%;
+    border-radius: 3px;
+}
+
+#world{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/album/world.jpg);
+    background-size: 100% 100%;
+    border-radius: 3px;
+}
+
+#unbreakable{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/album/unbreakable.jpg);
+    background-size: 100% 100%;
+    border-radius: 3px;
+}
+
+#turn{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/album/turn.jpg);
+    background-size: 100% 100%;
+    border-radius: 3px;
+}
+
+#face{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/album/face.jpeg);
+    background-size: 100% 100%;
+    border-radius: 3px;
+}
+
+#love{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/album/love.jpg);
+    background-size: 100% 100%;
+    border-radius: 3px;
+}
+
+#home{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/album/home.jpg);
+    background-size: 100% 100%;
+    border-radius: 3px;
+}
+
+#where{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/album/where.jpg);
+    background-size: 100% 100%;
+    border-radius: 3px;
+}
+
+.album-item{
+    margin: 30px;
+    text-align: center;
+}
+
+.album-item p{
+    /* color:#B16C4A; */
+    /* font-weight: bold; */
+    padding: 10px auto;
+}
+
+.album-item:hover{
+    /* border: 1px solid white; */
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px white;
+  
+}
+
+.album{
+    font-size: 35px;
+    /* font-weight: bold; */
+    margin: 30px auto;
+}
+
+.member-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/********************** style for album details******************************/
+.cover{
+    height: 300px;
+    width:  300px;
+    margin-top: 10px;
+}
+
+.album-detail{
+    min-width: 300px;
+}
+
+.album-title{
+    font-size: 35px;
+    margin-top: 10px;
+    line-height: 1;
+    color: #B16C4A
 }
