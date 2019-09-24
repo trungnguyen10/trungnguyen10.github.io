@@ -104,12 +104,12 @@ table, td{
     width: 700px;
 }
 
-.dark{
+.dark, .dark a{
     color: white;
     background-color: rgb(117, 67, 153);
 }
 
-.light{
+.light, .light a{
     color: white;
     background-color: #E6E6FA;
 }
