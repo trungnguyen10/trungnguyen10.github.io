@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Rubik:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload='startTime()'>
+
+
+    <div class='time-wrapper'>
+        <div class="clock"></div>
+        <div class="date"></div>
+        <div class="greeting"></div>
+    </div>
+
+    <div class="to-do-wrapper">
+        <div>What do you want to do today?</div>
+        <div id='instruction'>
+            <div>CLick on the item to mark as "Completed"</div>
+            <div>Click the "X" to delete the item</div>
+        </div>
+        <div class='input-wrapper'>
+            <input id='userInput' type='text' placeholder='Type new item...' maxlength='30'>
+            <svg id="enter" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8">
+                <path d="M6 0l-1 1 2 2 1-1-2-2zm-2 2l-4 4v2h2l4-4-2-2z" />
+            </svg>
+        </div>
+        <ul id='myList'>
+        </ul>
+    </div>
+
+    <footer class="pageFooter">Created by Trung Nguyen</footer>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
